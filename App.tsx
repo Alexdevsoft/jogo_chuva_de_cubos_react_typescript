@@ -186,7 +186,7 @@ export default function App() {
 
       {gameState === GameState.WON && (
         <div className="absolute inset-0 flex flex-col items-center justify-center z-[100] bg-black/80">
-          <h1 className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 animate-pulse text-center mb-8 drop-shadow-[0_0_15px_rgba(255,255,0,0.5)]">
+          <h1 className="text-6xl md:text-8xl font-black text-green-500 text-center mb-8 drop-shadow-[0_0_15px_rgba(0,255,0,0.5)]">
             PARABÉNS, CAMPEÃO!
           </h1>
           <button
